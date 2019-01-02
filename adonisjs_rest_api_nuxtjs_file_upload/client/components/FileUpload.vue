@@ -70,7 +70,7 @@ export default {
       	method: 'post',
       	url: url,
       	data:  formData,
-      	config: {headers: {'Content-Type': 'multipart/form-data' }}
+      	config: config
       })
       
     }
